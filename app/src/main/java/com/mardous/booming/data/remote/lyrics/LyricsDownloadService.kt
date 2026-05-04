@@ -26,6 +26,7 @@ import com.mardous.booming.data.remote.lyrics.api.simpmusic.SimpMusicLyricsApi
 import com.mardous.booming.data.remote.lyrics.model.DownloadedLyrics
 import com.mardous.booming.data.remote.lyrics.model.toDownloadedLyrics
 import com.mardous.booming.extensions.media.albumArtistName
+import com.mardous.booming.extensions.media.extractMainArtistName
 import io.ktor.client.HttpClient
 import java.io.IOException
 
@@ -47,11 +48,13 @@ class LyricsDownloadService(private val context: Context, client: HttpClient) {
         if (song == Song.emptySong) {
             return downloadedLyrics
         }
+        val cleanedTitle = cleanTitle(title)
+        val cleanedArtist = artist.extractMainArtistName()
         for (api in lyricsApi) {
             if (!api.networkFeature.isAvailable(context))
                 continue
 
-            val apiResult = runCatching { api.songLyrics(song, title, artist) }
+            val apiResult = runCatching { api.songLyrics(song, cleanedTitle, cleanedArtist) }
             if (apiResult.isFailure) {
                 Log.e("LyricsService", "Error during lyrics request", apiResult.exceptionOrNull())
             }
@@ -69,5 +72,31 @@ class LyricsDownloadService(private val context: Context, client: HttpClient) {
                 break
         }
         return downloadedLyrics
+    }
+
+    /**
+     * Taken from [Metrolist](https://github.com/MetrolistGroup/Metrolist).
+     */
+    private fun cleanTitle(title: String): String {
+        var cleaned = title.trim()
+        for (pattern in TITLE_CLEANUP_PATTERNS) {
+            cleaned = cleaned.replace(pattern, "")
+        }
+        return cleaned.trim()
+    }
+
+    companion object {
+        private val TITLE_CLEANUP_PATTERNS = listOf(
+            Regex("""\s*\(.*?(official|video|audio|lyrics|lyric|visualizer|hd|hq|4k|remaster|remix|live|acoustic|version|edit|extended|radio|clean|explicit).*?\)""", RegexOption.IGNORE_CASE),
+            Regex("""\s*\[.*?(official|video|audio|lyrics|lyric|visualizer|hd|hq|4k|remaster|remix|live|acoustic|version|edit|extended|radio|clean|explicit).*?\]""", RegexOption.IGNORE_CASE),
+            Regex("""\s*【.*?】"""),
+            Regex("""\s*\|.*$"""),
+            Regex("""\s*-\s*(official|video|audio|lyrics|lyric|visualizer).*$""", RegexOption.IGNORE_CASE),
+            Regex("""\s*\(feat\..*?\)""", RegexOption.IGNORE_CASE),
+            Regex("""\s*\(ft\..*?\)""", RegexOption.IGNORE_CASE),
+            Regex("""\s*feat\..*$""", RegexOption.IGNORE_CASE),
+            Regex("""\s*ft\..*$""", RegexOption.IGNORE_CASE),
+            Regex("""\s*\([^)]*\d{4}[^)]*\)""", RegexOption.IGNORE_CASE),
+        )
     }
 }
