@@ -106,7 +106,7 @@ fun Song.searchQuery(engine: WebSearchEngine): String {
             if (isArtistNameUnknown()) title else "$artistName $title"
 
         WebSearchEngine.LastFm, WebSearchEngine.Wikipedia ->
-            if (isArtistNameUnknown()) title else if (albumArtistName.isNullOrEmpty()) artistName.toAlbumArtistName() else albumArtistName!!
+            if (isArtistNameUnknown()) title else if (albumArtistName.isNullOrEmpty()) artistName.extractMainArtistName() else albumArtistName!!
     }
     return engine.getURLForQuery(searchQuery)
 }
