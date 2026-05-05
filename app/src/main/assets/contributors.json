@@ -16,5 +16,11 @@
     "contrib_description": "Contributor & Tester",
     "contrib_url": "https://github.com/TheTerminatorOfProgramming",
     "contrib_image": "ttop.png"
+  },
+  {
+    "contrib_name": "Alex",
+    "contrib_description": "Lyrically API Developer & Collab.",
+    "contrib_url": "https://github.com/Paxsenix0",
+    "contrib_image": "alex.png"
   }
 ]
