@@ -6,15 +6,12 @@
 
 ### Modern design. Pure sound. Fully yours.
 
-[![Platform](https://img.shields.io/badge/Platform-Android-green.svg?style=for-the-badge&logo=android)](https://android.com/)
-[![API](https://img.shields.io/badge/API-26%2B-green.svg?&style=for-the-badge&logo=android)](https://android-arsenal.com/api?level=26)
 [![Latest Release](https://img.shields.io/github/v/release/mardous/BoomingMusic?style=for-the-badge&label=Release&logo=github)](https://github.com/mardous/BoomingMusic/releases/latest)
-[![Pre-Release](https://img.shields.io/github/v/release/mardous/BoomingMusic?style=for-the-badge&include_prereleases&logo=github&label=Pre-release)](https://github.com/mardous/BoomingMusic/releases)
 [![F-Droid version](https://img.shields.io/f-droid/v/com.mardous.booming?style=for-the-badge&label=F-Droid&logo=fdroid)](https://f-droid.org/packages/com.mardous.booming/)
+[![Downloads](https://img.shields.io/github/downloads/mardous/BoomingMusic/total?style=for-the-badge&logo=github&label=Downloads)](https://github.com/mardous/BoomingMusic/releases)
 [![License: GPL v3](https://img.shields.io/github/license/mardous/BoomingMusic?style=for-the-badge&color=orange&label=License&logo=gnu)](LICENSE.txt)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor_Covenant-2.1-4baaaa.svg?style=for-the-badge&logo=contributorcovenant)](CODE_OF_CONDUCT.md)
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Join_Chat-blue?style=for-the-badge&logo=telegram)](https://t.me/mardousdev)
-[![Downloads](https://img.shields.io/github/downloads/mardous/BoomingMusic/total?style=for-the-badge&logo=github&label=Downloads)](https://github.com/mardous/BoomingMusic/releases)
 
 <a href="https://github.com/mardous/BoomingMusic/releases"><img src="assets/badge-github.png" height="60" alt="GitHub Release"></a>
 <a href="https://f-droid.org/packages/com.mardous.booming/"><img src="assets/badge-fdroid.png" height="60" alt="F-Droid"></a>
