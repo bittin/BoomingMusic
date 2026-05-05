@@ -919,8 +919,6 @@
     <string name="use_lrclib_provider_summary">Izinkan lirik diunduh dari layanan LRCLib.</string>
     <string name="use_betterlyrics_provider_title">Gunakan penyedia BetterLyrics</string>
     <string name="use_betterlyrics_provider_summary">Izinkan lirik diunduh dari layanan BetterLyrics.</string>
-    <string name="use_simpmusic_provider_title">Gunakan penyedia SimpMusic Lyrics</string>
-    <string name="use_simpmusic_provider_summary">Izinkan lirik diunduh dari layanan SimpMusic Lyrics.</string>
     <string name="search_playlists">Cari playlist</string>
     <string name="select_playlists_title">Pilih playlist</string>
     <string name="new_playlist_action">Baru</string>

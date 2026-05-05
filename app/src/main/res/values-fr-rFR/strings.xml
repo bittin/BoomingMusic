@@ -895,8 +895,6 @@
     <string name="use_lrclib_provider_summary">Autorisez le téléchargement des paroles à partir du service LRCLib.</string>
     <string name="use_betterlyrics_provider_title">Utiliser le fournisseur BetterLyrics</string>
     <string name="use_betterlyrics_provider_summary">Autorisez le téléchargement des paroles depuis le service BetterLyrics.</string>
-    <string name="use_simpmusic_provider_title">Utiliser le fournisseur de paroles SimpMusic</string>
-    <string name="use_simpmusic_provider_summary">Autorisez le téléchargement des paroles à partir du service SimpMusic Lyrics.</string>
     <string name="channel_mono">Mono</string>
     <string name="channel_stereo">Stéréo</string>
     <string name="channel_stereo_2_1">2.1 Stéréo</string>

@@ -877,7 +877,6 @@
     <string name="channel_stereo">Estéreo</string>
     <string name="channel_stereo_2_1">Estéreo 2.1</string>
     <string name="channel_quadraphonic">Cuadrafónico</string>
-    <string name="use_simpmusic_provider_title">Usar proveedor de letras SimpMusic</string>
     <string name="use_lrclib_provider_title">Usar proveedor LRCLib</string>
     <string name="lastfm_login_title">Acceder a Last.fm</string>
     <string name="network_features_title">Activar funcionalidades de red</string>
@@ -912,7 +911,6 @@
     <string name="lastfm_scrobbling_summary">Envía automáticamente las pistas reproducidas a su historial de escucha de Last.fm.</string>
     <string name="network_summary">Gestione funciones de Internet como la integración con Last.fm, los proveedores de letras de canciones y las descargas de metadatos.</string>
     <string name="use_betterlyrics_provider_summary">Permite la descarga de letras desde el servicio BetterLyrics.</string>
-    <string name="use_simpmusic_provider_summary">Permite la descarga de letras desde el servicio SimpMusic Lyrics.</string>
     <string name="lastfm_login_summary">Acceda a su cuenta de Last.fm para activar el «scrobbling» y las actualizaciones de lo que escucha.</string>
     <string name="use_lrclib_provider_summary">Permite la descarga de letras del servicio LRCLib.</string>
     <string name="error_network_timeout">Se agotó el tiempo de espera de la conexión. Compruebe su conexión a Internet e inténtelo de nuevo.</string>

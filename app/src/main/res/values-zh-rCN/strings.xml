@@ -885,8 +885,6 @@
     <string name="use_lrclib_provider_summary">允许从 LRCLib 服务下载歌词。</string>
     <string name="use_betterlyrics_provider_title">使用 BetterLyrics 服务</string>
     <string name="use_betterlyrics_provider_summary">允许从 BetterLyrics 服务下载歌词。</string>
-    <string name="use_simpmusic_provider_summary">允许从 SimpMusic Lyrics 服务下载歌词。</string>
-    <string name="use_simpmusic_provider_title">使用 SimpMusic Lyrics 服务</string>
     <string name="channel_quadraphonic">四声道</string>
     <string name="channel_mono">单声道</string>
     <string name="channel_stereo">立体声</string>

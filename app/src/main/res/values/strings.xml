@@ -890,11 +890,11 @@
     <string name="listenbrainz_now_playing_title">Update now playing on ListenBrainz</string>
     <string name="listenbrainz_now_playing_summary">Show the currently playing track on your ListenBrainz profile in real time.</string>
     <string name="use_lrclib_provider_title">Use LRCLib provider</string>
-    <string name="use_lrclib_provider_summary">Allow lyrics to be downloaded from the LRCLib service.</string>
+    <string name="use_lrclib_provider_summary">Community-driven lyrics database.</string>
     <string name="use_betterlyrics_provider_title">Use BetterLyrics provider</string>
-    <string name="use_betterlyrics_provider_summary">Allow lyrics to be downloaded from the BetterLyrics service.</string>
-    <string name="use_simpmusic_provider_title">Use SimpMusic Lyrics provider</string>
-    <string name="use_simpmusic_provider_summary">Allow lyrics to be downloaded from the SimpMusic Lyrics service.</string>
+    <string name="use_betterlyrics_provider_summary">Word by word synced lyrics.</string>
+    <string name="use_lyrically_provider_title">Use Lyrically provider</string>
+    <string name="use_lyrically_provider_summary">Rich lyrics API with karaoke and multi-person support.</string>
     <string name="delete_downloaded_lyrics_title">Delete downloaded lyrics</string>
     <string name="delete_downloaded_lyrics_summary">Only lyrics downloaded by Booming Music. Does not affect lyrics embedded in ID3v2 tags or LRC files.</string>
     <string name="lyrics_cleared">Lyrics cleared.</string>

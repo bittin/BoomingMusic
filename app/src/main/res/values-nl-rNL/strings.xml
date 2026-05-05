@@ -927,6 +927,4 @@
     <string name="use_lrclib_provider_summary">Sta toe dat songteksten gedownload kunnen worden via de LRCLib-service.</string>
     <string name="use_betterlyrics_provider_title">Gebruik de BetterLyrics-provider</string>
     <string name="use_betterlyrics_provider_summary">Sta het downloaden van songteksten via de BetterLyrics-service toe.</string>
-    <string name="use_simpmusic_provider_title">Gebruik de songtekstenprovider SimpMusic</string>
-    <string name="use_simpmusic_provider_summary">Sta toe dat songteksten gedownload kunnen worden van de SimpMusic Lyrics-service.</string>
 </resources>

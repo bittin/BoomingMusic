@@ -888,7 +888,6 @@
     <string name="network_features_title">Activa les funcionalitats de xarxa</string>
     <string name="use_lrclib_provider_title">Usa el proveïdor LRCLib</string>
     <string name="use_betterlyrics_provider_title">Usa el proveïdor BetterLyrics</string>
-    <string name="use_simpmusic_provider_title">Usa el proveïdor SimpMusic Lyrics</string>
     <string name="app_widget_responsive">Sensible</string>
     <string name="app_widget_responsive_desc">Un widget que s\'adapta a mides diferents</string>
     <string name="app_widget_card">Targeta</string>
@@ -963,6 +962,5 @@
     <string name="listenbrainz_now_playing_summary">Mostra al vostre perfil de ListenBrainz la pista que es reprodueix en temps real.</string>
     <string name="use_lrclib_provider_summary">Permet la descàrrega de lletres des del servei LRCLib.</string>
     <string name="use_betterlyrics_provider_summary">Permet la descàrrega de lletres des del servei BetterLyrics.</string>
-    <string name="use_simpmusic_provider_summary">Permet la descàrrega de lletres des del servei de SimpMusic.</string>
     <string name="auto_theme_name">Auto</string>
 </resources>

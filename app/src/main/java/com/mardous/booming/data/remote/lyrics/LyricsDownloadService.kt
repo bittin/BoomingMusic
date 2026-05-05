@@ -22,7 +22,7 @@ import android.util.Log
 import com.mardous.booming.data.model.Song
 import com.mardous.booming.data.remote.lyrics.api.betterlyrics.BetterLyricsApi
 import com.mardous.booming.data.remote.lyrics.api.lrclib.LrcLibApi
-import com.mardous.booming.data.remote.lyrics.api.simpmusic.SimpMusicLyricsApi
+import com.mardous.booming.data.remote.lyrics.api.lyrically.LyricallyApi
 import com.mardous.booming.data.remote.lyrics.model.DownloadedLyrics
 import com.mardous.booming.data.remote.lyrics.model.toDownloadedLyrics
 import com.mardous.booming.extensions.media.albumArtistName
@@ -33,9 +33,9 @@ import java.io.IOException
 class LyricsDownloadService(private val context: Context, client: HttpClient) {
 
     private val lyricsApi = listOf(
-        LrcLibApi(client),
+        LyricallyApi(client),
         BetterLyricsApi(client),
-        SimpMusicLyricsApi(client)
+        LrcLibApi(client)
     )
 
     @Throws(IOException::class)

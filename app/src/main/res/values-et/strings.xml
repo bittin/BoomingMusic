@@ -525,8 +525,6 @@
     <string name="use_lrclib_provider_summary">Luba laulusõnade allalaadimine LRCLib teenusest.</string>
     <string name="use_betterlyrics_provider_title">Kasuta BetterLyrics teenust</string>
     <string name="use_betterlyrics_provider_summary">Luba laulusõnade allalaadimine BetterLyrics teenusest.</string>
-    <string name="use_simpmusic_provider_title">Kasuta SimpMusic Lyrics teenust</string>
-    <string name="use_simpmusic_provider_summary">Luba laulusõnade allalaadimine SimpMusic Lyrics teenusest.</string>
     <string name="delete_downloaded_lyrics_title">Kustuta allalaaditud laulusõnad</string>
     <string name="delete_downloaded_lyrics_summary">See käib vaid rakenduse Booming Music poolt allalaaditud laulusõnade kohta. Ei mõjuta laulusõnu, mis on lõimitud ID3v2 siltidesse või LRC-failidena.</string>
     <string name="lyrics_cleared">Laulusõnad on kustutatud.</string>

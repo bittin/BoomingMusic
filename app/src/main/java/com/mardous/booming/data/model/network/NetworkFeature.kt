@@ -43,7 +43,7 @@ sealed class NetworkFeature(
     sealed class Lyrics(preferenceKey: String, isOnByDefault: Boolean) :
         NetworkFeature(preferenceKey, isOnByDefault) {
         object BetterLyrics : Lyrics("betterlyrics_enabled", false)
-        object SimpMusicLyrics : Lyrics("simpmusic_enabled", false)
+        object Lyrically : Lyrics("lyrically_enabled", false)
         object LRCLib : Lyrics("lrclib_enabled", true)
     }
 

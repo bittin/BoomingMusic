@@ -113,7 +113,7 @@ class LyricsEditorFragment : AbsMainActivityFragment(R.layout.fragment_lyrics_ed
         binding.download.isEnabled =
             NetworkFeature.Lyrics.LRCLib.isAvailable(requireContext(), requireBeOnline = false) ||
             NetworkFeature.Lyrics.BetterLyrics.isAvailable(requireContext(), requireBeOnline = false) ||
-            NetworkFeature.Lyrics.SimpMusicLyrics.isAvailable(requireContext(), requireBeOnline = false)
+            NetworkFeature.Lyrics.Lyrically.isAvailable(requireContext(), requireBeOnline = false)
 
         binding.title.text = song.title
         binding.text.text = song.displayArtistName()

@@ -901,8 +901,6 @@
     <string name="use_lrclib_provider_summary">Permitir la descarga de las letras desde el servicio LRCLib.</string>
     <string name="use_betterlyrics_provider_title">Usar el proveedor BetterLyrics</string>
     <string name="use_betterlyrics_provider_summary">Permitir la descarga de las letras desde el servicio BetterLyrics.</string>
-    <string name="use_simpmusic_provider_title">Usar el proveedor SimpMusic Lyrics</string>
-    <string name="use_simpmusic_provider_summary">Permitir la descarga de las letras desde el servicio SimpMusic Lyrics.</string>
     <string name="channel_mono">Mono</string>
     <string name="channel_stereo">Estéreo</string>
     <string name="channel_stereo_2_1">2.1 Estéreo</string>
