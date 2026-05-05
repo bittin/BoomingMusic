@@ -158,6 +158,8 @@ Your support is greatly appreciated and keeps me motivated to continue improving
 **mbeezy** (first donor)
 <br/>
 **[KKTweex](https://github.com/Qoojoe)**
+<br/>
+**[FabiRich](https://github.com/FabiRich)**
 
 </div>
 
