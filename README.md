@@ -171,8 +171,7 @@ Also thanks to:
 - [AMLV](https://github.com/dokar3/amlv)
 - [LRCLib](https://lrclib.net/)
 - [Better Lyrics](https://better-lyrics.boidu.dev/)
-- [SimpMusic Lyrics](https://github.com/maxrave-dev/SimpMusic)
-- [Alex](https://github.com/Paxsenix0)
+- [Lyrically API](https://lyrics.paxsenix.org/) (by [Alex](https://github.com/Paxsenix0))
 
 ## ⚖️ License
 
